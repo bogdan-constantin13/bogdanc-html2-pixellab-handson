@@ -1,0 +1,19 @@
+body {
+  background-color: red;
+}
+
+.home-catalog-preview {
+  margin: auto;
+
+  .product-tiles {
+    color: red;
+
+    .product-tile-header {
+      padding: 20px;
+
+      body.my-class & {
+        padding: 30px;
+      }
+    }
+  }
+}
