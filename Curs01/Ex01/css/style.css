@@ -37,9 +37,19 @@ body > h2 {
   display: none;
 }
 
+body > h3 {
+  display: none;
+}
+
 @media (max-width: 576px) {
   .box-2 {
     display: none;
+  }
+  .box-1 {
+    display: none;
+  }
+  body {
+    padding: 15px;
   }
 }
 
@@ -63,11 +73,15 @@ body > h2 {
   .box-4 {
     display: none;
   }
+  .box-2 {
+    color: white;
+    border: 1px solid yellow;
+  }
 }
 
-@media (min-width: 1200px) {
-  .box-5 {
-    display: none;
+@media (min-width: 576px) {
+  body > h3 {
+    display: block;
   }
 }
 
@@ -77,6 +91,24 @@ body > h2 {
   }
   .box-4 {
     color: red;
+  }
+  .box-1 {
+    /* aceasta cerinta lipseste din curs, insa este ceruta de Pixeltab */
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  body > h3 {
+    color: red;
+  }
+}
+@media (min-width: 1200px) {
+  .box-5 {
+    display: none;
+  }
+  body > h3 {
+    display: none;
   }
 }
 
