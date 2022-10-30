@@ -1,11 +1,26 @@
+$color_red: red;
+$color_purple: purple;
+$color_green: green;
+$color_magenta: magenta;
+$color_pink: pink;
+$color_lightcoral: lightcoral;
+
 ul {
   a {
     text-decoration: none;
 
     &:hover {
-      color: red;
+      color: $color_red;
     }
   }
+}
+
+ul a:active {
+  color: $color_purple;
+}
+
+ul a:visited {
+  color: $color_green;
 }
 
 .para {
@@ -31,4 +46,16 @@ a {
   .all-visited & {
     text-decoration: line-through;
   }
+}
+
+ol a:hover {
+  color: $color_magenta;
+}
+
+ol a:active {
+  color: $color_pink;
+}
+
+ol a:visited {
+  color: $color_lightcoral;
 }
