@@ -57,9 +57,7 @@
 }
 
 .circle-border-blue {
-  border-color: blue;
-  border-width: 5px;
-  border-style: solid;
+  border: blue 5px solid;
 }
 
 /*# sourceMappingURL=style.css.map */
