@@ -58,8 +58,8 @@
 
 .circle-border-blue {
   border-color: blue;
-  border-width: 3px;
-  border: solid;
+  border-width: 5px;
+  border-style: solid;
 }
 
 /*# sourceMappingURL=style.css.map */
