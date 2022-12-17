@@ -1,0 +1,30 @@
+/* Adapteaza exemplul anterior astfel incat in loc sa apara si
+sa dispara, textul sa isi schimbe culoarea din alb in negru.
+ */
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: green;
+}
+
+@keyframes colors {
+  0% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.loader3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  animation: colors 1.2s ease-in-out infinite alternate;
+}

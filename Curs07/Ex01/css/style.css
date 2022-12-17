@@ -16,6 +16,53 @@ la 100% folosind ease-in ca functie de temporizare. */
   animation: bar01 10s ease-in;
 }
 
+/* Pentru al doilea element adauga o animatie care va duce in decursul
+a 8 secunde de la dimensiunea initiala, la 100% folosind linear ca functie
+de temporizare. */
+
+@keyframes bar02 {
+  0% {
+    width: 150px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.bar-02 {
+  animation: bar02 8s linear;
+}
+
+/* Pentru al treilea element adauga o animatie care va duce in decursul
+a 12 secunde prin 4 cadre fiecare de 25%, primul fiind starea initiala
+a elementului, al doilea fiind latime de 75% si fundal galben,
+al treilea fiind latime de 200px si fundal rosu, iar al patrulea fiind
+latime de 5px si fundal albastru. Foloseste ease-in */
+
+@keyframes bar03 {
+  0% {
+    background-color: blue;
+    width: 100%;
+  }
+  33% {
+    background-color: yellow;
+    width: 75%;
+  }
+  66% {
+    background-color: red;
+    width: 200px;
+  }
+  100% {
+    background-color: blue;
+    width: 5px;
+  }
+}
+
+.bar-03 {
+  animation: bar03 12s ease-in;
+}
+
 /* Pentru al patrulea element, adauga o animatie care va duce
  peste 5 secunde prin 4 cadre de 25%, primul fiind starea
   initiala a elementului, al doilea fiind latimea 50% si
@@ -74,4 +121,21 @@ portocaliu. Foloseste linear. */
 
 .bar-05 {
   animation: bar05 8s linear;
+}
+
+/* Pentru al saselea element, adauga o animatie care va duce in decursul
+a 4 secunde de la dimensiunea initiala, la 100% folosind ease-in ca functie
+de temporizare.  */
+
+@keyframes bar06 {
+  0% {
+    width: 200px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.bar-06 {
+  animation: bar06 4s ease-in;
 }

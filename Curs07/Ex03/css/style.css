@@ -25,6 +25,11 @@ body {
   animation: blink 1s linear infinite alternate forwards;
 }
 
+/* Creaza o animatie de tip loader, care afiseaza pe
+centru ecranului trei patrate negre de 15px fiecare urca
+alternativ cate 10px apoi coboara in pozitia initiala
+ */
+
 @keyframes bounce {
   from {
     transform: translateY(0);

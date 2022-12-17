@@ -49,3 +49,25 @@
   justify-content: space-around;
   align-items: flex-end;
 }
+
+.flex-container-01 {
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-03 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container-04 {
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+.flex-container-06 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
